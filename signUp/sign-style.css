@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECEEF0;
+}
+
+.sign-form {
+    height: 450px;
+    width: 450px;
+    position: relative;
+    left: 15%;
+    top: 50%;
+    text-align: center;
+    border: 1px solid grey;
+    transform: translate(-50%, -50%);
+    background-color: #984BEB;
+    border-radius: 10%;
+}
+
+.logo {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+.username-div {
+    position: absolute;
+    top: 20%;
+}
+
+input {
+    width: 200%;
+}
+
+.email-div {
+    position: absolute;
+    top: 30%;
+}
+
+.password-div {
+    position: absolute;
+    top: 40%;
+}
+
+.btn-sign {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+input {
+    width: 200%;
+}

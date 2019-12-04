@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/instagram-hex-colors-gradient-background.png);
+}
+/* Cards */
+/* making card change color on hover
+
+*/
+/* .card{
+    background: #5851DB;
+}
+.card:hover{
+    background: darksalmon;
+} */
+
+.card-deck .card .fa{
+    width: 100px;
+    padding: 10px 10px;
+    font-size: 50px;
+    text-align: center;
+   
+}
+.card-deck .card .fa .fa-instagram{
+    background: #3B5998;
+    color: white;
+}
+/*Main Header */
+
+/*========================
+Header
+
+*/
+.fixed-header{
+    position: fixed;
+    color: darkorange;
+    padding: 10px 0;
+    width: 100%;
+    background: #333;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-header .container{
+    width: 30%;
+    margin: 0 auto;
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(230, 67, 175); 
+    display: inline-block;
+    padding: 7px 15px;
+}
+/* Main Footer */
+/*==================== 
+	Footer 
+====================== */
+.footer{
+
+    background: #333;
+    width: 100%;
+    padding: 10px 0;
+    bottom: 0;
+
+}
+.footer .container{
+    width: 100%;
+}
